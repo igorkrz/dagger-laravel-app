@@ -5,7 +5,6 @@ version: '3.8'
 services:
   laravel:
     restart: unless-stopped
-    container_name: laravelapp
     build:
       context: .
       dockerfile: ./Dockerfile
