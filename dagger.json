@@ -1,0 +1,12 @@
+{
+  "name": "dagger-laravel-app",
+  "sdk": "github.com/dragoonis/dagger/sdk/php@add-php-runtime",
+  "dependencies": [
+    {
+      "name": "php",
+      "source": "github.com/carnage/dagger-php-module@22aa90a967f4eef40bba1ddce096ad04e8888b33"
+    }
+  ],
+  "source": "dagger",
+  "engineVersion": "v0.11.9"
+}
